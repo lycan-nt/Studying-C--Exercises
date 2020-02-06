@@ -1,0 +1,11 @@
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.exe
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.deps.json
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.runtimeconfig.json
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.runtimeconfig.dev.json
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\bin\Debug\netcoreapp3.1\DigitalInnovationOne.pdb
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.csprojAssemblyReference.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.AssemblyInfoInputs.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.AssemblyInfo.cs
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\DigitalInnovationOne\obj\Debug\netcoreapp3.1\DigitalInnovationOne.pdb
