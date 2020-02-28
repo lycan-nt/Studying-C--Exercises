@@ -19,6 +19,22 @@ namespace HelloWorld
             int x = 5;
             int y = 5;
             Console.WriteLine("Soma: X + Y = " + ( x + y)); // Print the value of x + y 
+
+            //Conversão implicita
+
+            int myInt = 9;
+            double myDooble = myInt;
+
+            Console.WriteLine(myInt);
+            Console.WriteLine(myDooble);
+
+            //Conversão Explicita
+
+            myDooble = 9.5;
+            myInt = (int)myDooble;
+
+            Console.WriteLine(myDooble);
+            Console.WriteLine(myInt);
         }
     }
 }
