@@ -35,6 +35,18 @@ namespace HelloWorld
 
             Console.WriteLine(myDooble);
             Console.WriteLine(myInt);
+
+            //Entrada de dados
+
+            Console.WriteLine("Enter username: ");
+            String userName = Console.ReadLine();
+
+            Console.WriteLine("Username is: " + userName);
+
+            Console.WriteLine("Enter your age: ");
+            int userAge = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Your age: " + userAge);
         }
     }
 }
