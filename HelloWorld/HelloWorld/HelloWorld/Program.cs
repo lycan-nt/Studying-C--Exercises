@@ -47,6 +47,44 @@ namespace HelloWorld
             int userAge = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Your age: " + userAge);
+
+            //Booleano
+
+            bool isCharpFul = true;
+            bool isFishTasty = false;
+            Console.WriteLine(isCharpFul);
+            Console.WriteLine(isFishTasty);
+
+            int num1 = 10;
+            int num2 = 9;
+            Console.WriteLine(num1 > num2);
+
+            //if and else...
+
+            if(20 > 18)
+            {
+                Console.WriteLine("20 is greater than 18");
+            }
+
+            int ifNum1 = 20;
+            int ifNum2 = 10;
+            if(ifNum1 > ifNum2)
+            {
+                Console.WriteLine("ifNum1 is greater than ifNum2");
+            }
+
+            int time = 20;
+            if(time < 18)
+            {
+                Console.WriteLine("God Day!");
+            }
+            else
+            {
+                Console.WriteLine("God nigth!");
+            }
+
+            string result = (time > 18) ? "God nigth" : "God day!";
+            Console.WriteLine(result);
         }
     }
 }
