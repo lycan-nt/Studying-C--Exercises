@@ -130,6 +130,18 @@ namespace HelloWorld
                 Console.WriteLine(i2);
             } while (i2 > 1);
 
+            //break
+
+            for(i = 0; i < 10; i++)
+            {
+                if(i == 4)
+                {
+                    break;
+                }
+
+                Console.WriteLine(i);
+            }
+
         }
 
     }
