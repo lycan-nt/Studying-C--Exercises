@@ -39,4 +39,22 @@ namespace ClassApp
             Console.WriteLine(ObjC.maxSped);
         }
     }
+
+    //Create a car class
+    class Car1
+    {
+        public string model; //Create a fild
+
+        //Create a class constructor for de class car
+        public Car1()
+        {
+            model = "Mustang"; //Set the initial value for model
+        }
+
+        static void Main(string [] args)
+        {
+            Car1 Ford = new Car1(); //Create  an object of the  car Class  (this will call the constructor)
+            Console.WriteLine(Ford.model);
+        }
+    }
 }
