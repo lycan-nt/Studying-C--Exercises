@@ -30,7 +30,7 @@ namespace ConsoleApp
 
         public static void Tabuada(int numero)
         {
-            Console.WriteLine("===============================================================");
+            Console.WriteLine("============================== Tabuada do "+ numero +" =================================");
 
             for(int i = 1; i <= 10; i++)
             {
@@ -64,21 +64,49 @@ namespace ConsoleApp
 
         }
 
-        public const int SAIDA_PROGRAMA = 1;
+        public const int SAIDA_PROGRAMA = 0;
+        public const int LER_ARQUIVO = 1;
+        public const int TABUADA = 2;
+        public const int CALCULO_MEDIA = 3;
         static void Main(string[] args)
         {
             while(true)
             {
-                Console.WriteLine("Digite " + SAIDA_PROGRAMA + " para sair");
+                string mensagem = "Bem vindo ao ultilitarios APP" +
+                    "\n Digite uma das opção a baixo: " +
+                    "\n " +
+                    "\n    0 - Sair Do Prgrama" +
+                    "\n    1 - Ler Arquivos" +
+                    "\n    2 - Tabuada" +
+                    "\n    3 - Calcular Media";
+                Console.WriteLine(mensagem);
+
                 int valor = int.Parse(Console.ReadLine());
 
+                Console.WriteLine("Digite " + SAIDA_PROGRAMA + " para sair");
+               
                 if(SAIDA_PROGRAMA == valor)
                 {
                     break;
+                } else if(valor == LER_ARQUIVO)
+                {
+                    Console.WriteLine("====================Opção Ler Arquivos====================");
+                    LerArquivo(1);
+                } else if(valor == TABUADA)
+                {
+                    Console.WriteLine("==================Opção Tabuada===================");
+                    Console.WriteLine("Digite o numero que deseja calcular a tabuada: ");
+                    int numero = int.Parse(Console.ReadLine());
+                    Tabuada(numero);
+                } else if(valor == CALCULO_MEDIA)
+                {
+                    Console.WriteLine("Falta Implementar o calculo da média");
+                } else
+                {
+                    Console.WriteLine("Opção invalida digite novamente");
                 }
             }
 
-            LerArquivo(1);
         }
     }
 }
