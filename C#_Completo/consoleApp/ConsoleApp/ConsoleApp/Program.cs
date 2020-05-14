@@ -63,8 +63,21 @@ namespace ConsoleApp
             }
 
         }
+
+        public const int SAIDA_PROGRAMA = 1;
         static void Main(string[] args)
         {
+            while(true)
+            {
+                Console.WriteLine("Digite " + SAIDA_PROGRAMA + " para sair");
+                int valor = int.Parse(Console.ReadLine());
+
+                if(SAIDA_PROGRAMA == valor)
+                {
+                    break;
+                }
+            }
+
             LerArquivo(1);
         }
     }
