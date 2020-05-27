@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace ConsoleApp
@@ -40,9 +41,10 @@ namespace ConsoleApp
             Console.WriteLine("===============================================================");
         }
 
-        private static void LerArquivo(int numeroArquivo)
+        private static void LerArquivos(int numeroArquivo)
         {
             string arquivoComCaminho = @"C:\arquivos\arq"+ numeroArquivo +".txt";
+            Console.WriteLine("============Lendo arquivo===========\n" + arquivoComCaminho + "\n==============================");
             if(File.Exists(arquivoComCaminho))
             {
                 using (StreamReader arquivo = File.OpenText(arquivoComCaminho))
@@ -59,9 +61,22 @@ namespace ConsoleApp
 
             if (File.Exists(arquivoComCaminho2))
             {
-                LerArquivo(numeroArquivo + 1);
+                LerArquivos(numeroArquivo + 1);
             }
 
+        }
+
+        private void calcularMediaAluno()
+        {
+            int qtdNotas = 3;
+            Console.WriteLine("Digite as " + qtdNotas + "do aluno: ");
+            List<int> notas = new List<int>();
+
+            for(int i = 1; i < qtdNotas; i++)
+            {
+                Console.WriteLine("Digite a nota numero " + i);
+
+            }
         }
 
         public const int SAIDA_PROGRAMA = 0;
@@ -91,16 +106,20 @@ namespace ConsoleApp
                 } else if(valor == LER_ARQUIVO)
                 {
                     Console.WriteLine("====================Opção Ler Arquivos====================");
-                    LerArquivo(1);
+                    LerArquivos(1);
+                    Console.WriteLine("===============================================================");
                 } else if(valor == TABUADA)
                 {
                     Console.WriteLine("==================Opção Tabuada===================");
                     Console.WriteLine("Digite o numero que deseja calcular a tabuada: ");
                     int numero = int.Parse(Console.ReadLine());
                     Tabuada(numero);
+                    Console.WriteLine("===============================================================");
                 } else if(valor == CALCULO_MEDIA)
                 {
+                    Console.WriteLine("============================================");
                     Console.WriteLine("Falta Implementar o calculo da média");
+                    Console.WriteLine("============================================");
                 } else
                 {
                     Console.WriteLine("Opção invalida digite novamente");
