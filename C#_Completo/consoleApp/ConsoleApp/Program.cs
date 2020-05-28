@@ -66,26 +66,41 @@ namespace ConsoleApp
 
         }
 
-        private void calcularMediaAluno()
+        private static void  calcularMediaAluno()
         {
+            Console.Write("Digite o nome do aluno: ");
+            string nome = Console.ReadLine();
+
             int qtdNotas = 3;
-            Console.WriteLine("Digite as " + qtdNotas + "do aluno: ");
+            Console.WriteLine("Digite as " + qtdNotas + " notas do aluno: " + nome);
             List<int> notas = new List<int>();
 
-            for(int i = 1; i < qtdNotas; i++)
+            int totalNotas = 0;
+
+            for(int i = 1; i <= qtdNotas; i++)
             {
                 Console.WriteLine("Digite a nota numero " + i);
+                int nota = int.Parse(Console.ReadLine());
+                totalNotas += nota;
+                notas.Add(nota);
 
             }
+
+
+            int media = totalNotas / notas.Count;
+            Console.WriteLine("A média do aluno " + nome + " é: " + media);
+
+            Console.WriteLine("Suas notas são");
+            foreach(int nota in notas)
+            {
+                Console.WriteLine("Nota: " + nota + "\n");
+            }
+
         }
 
-        public const int SAIDA_PROGRAMA = 0;
-        public const int LER_ARQUIVO = 1;
-        public const int TABUADA = 2;
-        public const int CALCULO_MEDIA = 3;
-        static void Main(string[] args)
+        private static void Menu()
         {
-            while(true)
+            while (true)
             {
                 string mensagem = "Bem vindo ao ultilitarios APP" +
                     "\n Digite uma das opção a baixo: " +
@@ -99,33 +114,45 @@ namespace ConsoleApp
                 int valor = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Digite " + SAIDA_PROGRAMA + " para sair");
-               
-                if(SAIDA_PROGRAMA == valor)
+
+                if (SAIDA_PROGRAMA == valor)
                 {
                     break;
-                } else if(valor == LER_ARQUIVO)
+                }
+                else if (valor == LER_ARQUIVO)
                 {
                     Console.WriteLine("====================Opção Ler Arquivos====================");
                     LerArquivos(1);
                     Console.WriteLine("===============================================================");
-                } else if(valor == TABUADA)
+                }
+                else if (valor == TABUADA)
                 {
                     Console.WriteLine("==================Opção Tabuada===================");
                     Console.WriteLine("Digite o numero que deseja calcular a tabuada: ");
                     int numero = int.Parse(Console.ReadLine());
                     Tabuada(numero);
                     Console.WriteLine("===============================================================");
-                } else if(valor == CALCULO_MEDIA)
+                }
+                else if (valor == CALCULO_MEDIA)
                 {
                     Console.WriteLine("============================================");
-                    Console.WriteLine("Falta Implementar o calculo da média");
+                    calcularMediaAluno();
                     Console.WriteLine("============================================");
-                } else
+                }
+                else
                 {
                     Console.WriteLine("Opção invalida digite novamente");
                 }
             }
+        }
 
+        public const int SAIDA_PROGRAMA = 0;
+        public const int LER_ARQUIVO = 1;
+        public const int TABUADA = 2;
+        public const int CALCULO_MEDIA = 3;
+        static void Main(string[] args)
+        {
+            Menu();
         }
     }
 }
