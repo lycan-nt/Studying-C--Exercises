@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
 
     class Program
     {
-
-        public int CalcularSoma2()
+        private static int CalcularSoma()
         {
             int a = 1;
             int b = 2;
@@ -16,36 +18,26 @@ namespace ConsoleApp
             return c;
         }
 
-        public static int CalcularSoma()
+        public static void MostrarMesagemNaTela()
         {
-            int a = 1;
-            int b = 2;
-            int c = a + b;
-            return c;           
-        }
-
-        public static void MostrarMensagemNaTela()
-        {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Olá pessoal");
         }
 
         public static void Tabuada(int numero)
         {
-            Console.WriteLine("============================== Tabuada do "+ numero +" =================================");
-
-            for(int i = 1; i <= 10; i++)
+            Console.WriteLine("======== Calculo da tabuada do " + numero + "\n==========");
+            for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine(numero + " X " + i + " = " + (numero * i));
             }
-
-            Console.WriteLine("===============================================================");
+            Console.WriteLine("==================");
         }
 
         private static void LerArquivos(int numeroArquivo)
         {
-            string arquivoComCaminho = @"C:\arquivos\arq"+ numeroArquivo +".txt";
-            Console.WriteLine("============Lendo arquivo===========\n" + arquivoComCaminho + "\n==============================");
-            if(File.Exists(arquivoComCaminho))
+            string arquivoComCaminho = @"C:\arquivos\arq" + numeroArquivo + ".txt";
+            Console.WriteLine("==== Lendo arquivo ====\n" + arquivoComCaminho + "\n=====");
+            if (File.Exists(arquivoComCaminho))
             {
                 using (StreamReader arquivo = File.OpenText(arquivoComCaminho))
                 {
@@ -56,100 +48,89 @@ namespace ConsoleApp
                     }
                 }
             }
-
             string arquivoComCaminho2 = @"C:\arquivos\arq" + (numeroArquivo + 1) + ".txt";
-
             if (File.Exists(arquivoComCaminho2))
             {
                 LerArquivos(numeroArquivo + 1);
             }
-
         }
 
-        private static void  calcularMediaAluno()
+        private static void CalcularMediaAluno()
         {
-            Console.Write("Digite o nome do aluno: ");
+            Console.WriteLine("Digite o nome do aluno");
             string nome = Console.ReadLine();
-
             int qtdNotas = 3;
-            Console.WriteLine("Digite as " + qtdNotas + " notas do aluno: " + nome);
+            Console.WriteLine("Digite as " + qtdNotas + " notas do aluno " + nome);
+
             List<int> notas = new List<int>();
-
             int totalNotas = 0;
-
-            for(int i = 1; i <= qtdNotas; i++)
+            for (int i = 1; i <= qtdNotas; i++)
             {
                 Console.WriteLine("Digite a nota numero " + i);
                 int nota = int.Parse(Console.ReadLine());
                 totalNotas += nota;
                 notas.Add(nota);
-
             }
-
 
             int media = totalNotas / notas.Count;
             Console.WriteLine("A média do aluno " + nome + " é: " + media);
-
-            Console.WriteLine("Suas notas são");
-            foreach(int nota in notas)
+            Console.WriteLine("Suas notas são:\n");
+            foreach (int nota in notas)
             {
                 Console.WriteLine("Nota: " + nota + "\n");
             }
-
         }
 
         private static void Menu()
         {
             while (true)
             {
-                string mensagem = "Bem vindo ao ultilitarios APP" +
-                    "\n Digite uma das opção a baixo: " +
-                    "\n " +
-                    "\n    0 - Sair Do Prgrama" +
-                    "\n    1 - Ler Arquivos" +
-                    "\n    2 - Tabuada" +
-                    "\n    3 - Calcular Media";
+                string mensagem = "Olá usuário, bem vindo ao programa\n" +
+                    "\n  Utilizando programação funcional" +
+                    "\n\n" +
+                    "\n    Digite uma das opções abaixo:" +
+                    "\n      0 - Sair do programa" +
+                    "\n      1 - Para Ler Arquivos" +
+                    "\n      2 - Para executar a tabuada" +
+                    "\n      3 - Calcular média de alunos";
                 Console.WriteLine(mensagem);
 
                 int valor = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("Digite " + SAIDA_PROGRAMA + " para sair");
-
-                if (SAIDA_PROGRAMA == valor)
+                if (valor == SAIDA_PROGRAMA)
                 {
                     break;
                 }
-                else if (valor == LER_ARQUIVO)
+                else if (valor == LER_ARQUIVOS)
                 {
-                    Console.WriteLine("====================Opção Ler Arquivos====================");
+                    Console.WriteLine("==== Opção Ler Arquivos ====");
                     LerArquivos(1);
-                    Console.WriteLine("===============================================================");
+                    Console.WriteLine("\n============================\n");
                 }
                 else if (valor == TABUADA)
                 {
-                    Console.WriteLine("==================Opção Tabuada===================");
-                    Console.WriteLine("Digite o numero que deseja calcular a tabuada: ");
+                    Console.WriteLine("==== Opção tabuada ====");
+                    Console.WriteLine("Digite o número que deseja na tabuada");
                     int numero = int.Parse(Console.ReadLine());
                     Tabuada(numero);
-                    Console.WriteLine("===============================================================");
+                    Console.WriteLine("\n============================\n");
                 }
                 else if (valor == CALCULO_MEDIA)
                 {
-                    Console.WriteLine("============================================");
-                    calcularMediaAluno();
-                    Console.WriteLine("============================================");
+                    CalcularMediaAluno();
+                    Console.WriteLine("\n============================\n");
                 }
                 else
                 {
-                    Console.WriteLine("Opção invalida digite novamente");
+                    Console.WriteLine("Opção inválida, digite novamente");
                 }
             }
         }
 
         public const int SAIDA_PROGRAMA = 0;
-        public const int LER_ARQUIVO = 1;
+        public const int LER_ARQUIVOS = 1;
         public const int TABUADA = 2;
         public const int CALCULO_MEDIA = 3;
+
         static void Main(string[] args)
         {
             Menu();
