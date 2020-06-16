@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\C#_Start\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\Exercises\\ImparPar\\ImparPar\\ImparPar.csproj": {}
   },
   "projects": {
-    "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\C#_Start\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\Exercises\\ImparPar\\ImparPar\\ImparPar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\C#_Start\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
-        "projectName": "ConsoleApp",
-        "projectPath": "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\C#_Start\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\Exercises\\ImparPar\\ImparPar\\ImparPar.csproj",
+        "projectName": "ImparPar",
+        "projectPath": "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\Exercises\\ImparPar\\ImparPar\\ImparPar.csproj",
         "packagesPath": "C:\\Users\\Dark\\.nuget\\packages\\",
-        "outputPath": "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\C#_Start\\ConsoleApp\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\NextDev\\Dev-Web\\Estudos-CSharp\\Exercises\\ImparPar\\ImparPar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dark\\AppData\\Roaming\\NuGet\\NuGet.Config",
