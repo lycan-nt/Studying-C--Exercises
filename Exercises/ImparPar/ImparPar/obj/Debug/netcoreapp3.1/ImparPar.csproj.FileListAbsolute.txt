@@ -1,0 +1,11 @@
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\bin\Debug\netcoreapp3.1\ImparPar.exe
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\bin\Debug\netcoreapp3.1\ImparPar.deps.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\bin\Debug\netcoreapp3.1\ImparPar.runtimeconfig.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\bin\Debug\netcoreapp3.1\ImparPar.runtimeconfig.dev.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\bin\Debug\netcoreapp3.1\ImparPar.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\bin\Debug\netcoreapp3.1\ImparPar.pdb
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\obj\Debug\netcoreapp3.1\ImparPar.csprojAssemblyReference.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\obj\Debug\netcoreapp3.1\ImparPar.AssemblyInfoInputs.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\obj\Debug\netcoreapp3.1\ImparPar.AssemblyInfo.cs
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\obj\Debug\netcoreapp3.1\ImparPar.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\ImparPar\ImparPar\obj\Debug\netcoreapp3.1\ImparPar.pdb

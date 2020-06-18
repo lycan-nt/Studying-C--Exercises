@@ -5,11 +5,23 @@ namespace ImparPar
     class Program
     {
 
-        public static int ImparPar(int number)
+        public static void ImparPar(int number)
         {
-            Console.WriteLine(" ");
+
             int result = 0;
-            return result;
+
+            if (number % 2 == 0)
+            {
+                result = number;
+                Console.WriteLine(number + " é Par");
+            } 
+            else
+            {
+                result = number;
+                Console.WriteLine(number + " é Impar");
+            }
+
+            
         }
 
         static void Main(string[] args)
@@ -20,7 +32,27 @@ namespace ImparPar
             Console.WriteLine("Please enter the number: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
+            ImparPar(number);
 
+            Console.WriteLine("======================================");
+            int program = 0;
+            Console.WriteLine("Enter 1 for view other number");
+            program = Convert.ToInt32(Console.ReadLine());
+
+            do
+            {
+                if (program == 1)
+                {
+                    Console.WriteLine("Please enter the number: ");
+                    number = Convert.ToInt32(Console.ReadLine());
+
+                    ImparPar(number);
+                }
+
+                Console.WriteLine("Enter 1 for view other number");
+                program = Convert.ToInt32(Console.ReadLine());
+
+            } while (program == 1);
             
         }
     }
