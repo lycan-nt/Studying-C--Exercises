@@ -1,0 +1,11 @@
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\bin\Debug\netcoreapp3.1\EnterName.exe
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\bin\Debug\netcoreapp3.1\EnterName.deps.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\bin\Debug\netcoreapp3.1\EnterName.runtimeconfig.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\bin\Debug\netcoreapp3.1\EnterName.runtimeconfig.dev.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\bin\Debug\netcoreapp3.1\EnterName.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\bin\Debug\netcoreapp3.1\EnterName.pdb
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\obj\Debug\netcoreapp3.1\EnterName.csprojAssemblyReference.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\obj\Debug\netcoreapp3.1\EnterName.AssemblyInfoInputs.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\obj\Debug\netcoreapp3.1\EnterName.AssemblyInfo.cs
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\obj\Debug\netcoreapp3.1\EnterName.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\EnterName\EnterName\obj\Debug\netcoreapp3.1\EnterName.pdb
