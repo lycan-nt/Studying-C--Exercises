@@ -1,0 +1,11 @@
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\bin\Debug\netcoreapp3.1\CalApp.exe
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\bin\Debug\netcoreapp3.1\CalApp.deps.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\bin\Debug\netcoreapp3.1\CalApp.runtimeconfig.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\bin\Debug\netcoreapp3.1\CalApp.runtimeconfig.dev.json
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\bin\Debug\netcoreapp3.1\CalApp.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\bin\Debug\netcoreapp3.1\CalApp.pdb
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\obj\Debug\netcoreapp3.1\CalApp.csprojAssemblyReference.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\obj\Debug\netcoreapp3.1\CalApp.AssemblyInfoInputs.cache
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\obj\Debug\netcoreapp3.1\CalApp.AssemblyInfo.cs
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\obj\Debug\netcoreapp3.1\CalApp.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\Exercises\CalApp\CalApp\obj\Debug\netcoreapp3.1\CalApp.pdb
