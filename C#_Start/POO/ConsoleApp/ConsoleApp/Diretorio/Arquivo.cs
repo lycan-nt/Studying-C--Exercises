@@ -4,10 +4,15 @@ using System.Configuration;
 using System.IO;
 using System.Text;
 
+
 namespace Diretorio
 {
     class Arquivo
     {
+        private static string caminhoArquivo()
+        {
+            return ConfigurationManager.AppSettings["caminho_arquivos"];
+        }
         public static void Ler(int numeroArquivo)
         {
             string arquivoComCaminho = ConfigurationManager.AppSettings["caminho_arquivos"] + "arq" + numeroArquivo + ".txt";

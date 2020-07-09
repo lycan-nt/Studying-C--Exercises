@@ -42,3 +42,14 @@ D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\n
 D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CopyComplete
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\NextDev\Dev-Web\Estudos-CSharp\C#_Start\POO\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
